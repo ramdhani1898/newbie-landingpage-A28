@@ -1,5 +1,5 @@
 # newbie.github.io
-Kelomok A28 :
+Kelompok A28 :
 - Cornelius Yosafat
 - Dani Ramdhani
 - Davin Reyhan Setiawan
