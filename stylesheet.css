@@ -1,0 +1,381 @@
+/* CSS Reset and font  */
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* css reset end */
+/* ------------------------------------------------------------------------------------------- */
+.clear{
+  clear:left;
+}
+/* css navbar (elisa) start*/
+.nav {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 31, 139, 0.8);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+.nav-left {
+  float: left;
+  font-size: 28px;
+  padding: 17px 0px;
+  font-weight: 700;
+}
+
+.nav-left:hover{
+  transform: scale(1.05);
+}
+
+.nav-left span{
+  color: #FFC632;
+}
+
+.nav-left a{
+  color: #fff;
+}
+
+.nav-right {
+  float: right;
+  background-color: rgba(255, 198, 50, 0.9);
+  transition: all 0.5s;
+  margin-left: 80px;
+}
+
+.nav-right a .contact{
+  color: black;
+}
+
+.nav-right:hover {
+  background-color: rgba(255, 198, 50, 0.7);
+}
+
+.container .menu-icon {
+  display:none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+}
+
+.nav-list li{
+  float: right;
+  padding: 23px 20px;
+}
+
+.nav-list li a{
+  color: white;
+}
+
+.nav-list li a:hover{
+  color: #FFC632;
+}
+
+.nav-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+/* css navbar (elisa) end */
+/* ------------------------------------------------------------------------------------------- */
+/* css header (Ayu) */
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 150px 0;
+  background: url('asset/background.jpg');
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  letter-spacing: 3px;
+  font-size: 72px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.yellow-title {
+  color: #FFC632;
+  font-weight: 700;
+}
+
+.top-wrapper p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+.cont {
+  background-color: #FFC632;
+  border: 2px solid #FFC632;
+  margin-right: 10px;
+  color: black;
+}
+
+.work {
+  
+  border: 2px solid #FFC632;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.btn:hover {
+  color: #FFF;
+  outline: 0;
+  box-shadow: 0 0 40px 40px #FFC632 inset;
+}
+/* css header (Ayu) end */
+/* ------------------------------------------------------------------------------------------- */
+/* css our work (Cornelius) start*/
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.heading h1 {
+  font-weight: 700;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon h3 {
+  position: absolute;
+  width: 100%;
+  color: black;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.lesson-icon img{
+  border-radius: 6px;
+}
+
+.lesson-icon img:hover{
+  transform: scale(1.08);
+  box-shadow: 10px 10px 10px #9e9e9e
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  padding-top: 18px;
+}
+/* css our work (Cornelius) end  */
+/* ------------------------------------------------------------------------------------------- */
+/* css our team (Davin) start */
+.tim-wrapper {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 80px;
+  background-color: #082489;
+  text-align: center;
+  color: #fff;
+}
+
+.heading-tim {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.heading-tim h1 {
+  font-weight: 700;
+}
+
+.tim {
+  float: left;
+  width: 20%;
+}
+
+.tim-icon {
+  position: relative;
+}
+
+.tim-icon img{
+  border-radius: 50%;
+}
+
+.tim-icon img:hover{
+  box-shadow: 7px 7px 20px #000000
+}
+
+.tim-icon h3 {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.txt-contents-tim {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  padding-top: 18px;
+}
+/* css our team (Davin) end */
+/* ------------------------------------------------------------------------------------------- */
+/* css contact form (Dani) start */
+.box-form{
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+form{
+  text-align: left;
+  margin-top: 40px;
+}
+
+label{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+input, select, textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
+  border:1px solid #082489;
+  background: #fff;
+}
+
+.contact-submit{
+  background-color:#FFC632;
+  color: black;
+  padding: 10px 0;
+  border:none;
+  width: 30%;
+}
+
+.contact-submit:hover{
+  color: #FFF;
+  outline: 0;
+  box-shadow: 0 0 40px 40px #082489 inset;
+}
+
+.contact-submit:active{
+  transform: scale(1.05);
+}
+
+/* css contact form (Dani) end */
+/* ------------------------------------------------------------------------------------------- */
+/* css footer (Elisa) start */
+.footer {
+  background-color: #082489;
+  height: 180px;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-logo span{
+  color: #FFC632;
+}
+
+.footer-logo a{
+  color: #fff;
+}
+
+.footer-logo:hover{
+  transform: scale(1.05);
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list li a{
+  color: #fff;
+}
+
+.footer-list li a:hover {
+  color: #FFC632;
+}
+/* css footer (Elisa) end */
+/* ------------------------------------------------------------------------------------------- */
