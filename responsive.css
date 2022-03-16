@@ -1,0 +1,128 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+/* ------------------------------------------------------------------------------------------- */   
+
+  /* header (ayu) start */
+  .top-wrapper h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .top-wrapper p {
+    text-align: center;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+  }
+  /* header (ayu) end */
+
+/* ------------------------------------------------------------------------------------------- */ 
+  
+  /* our work (cornelius) start  */
+  .lesson{
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  /* our work (cornelius) end  */
+
+/* ------------------------------------------------------------------------------------------- */
+
+  /* our team (Davin) start */
+    .tim{
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  /* our team (Davin) end */
+
+/* ------------------------------------------------------------------------------------------- */
+
+  /* footer (elisa) start */
+  .footer{
+    padding : 20px 20px;
+  }
+  /* footer (elisa) end */
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* navbar/header (elisa)start  */
+  .nav-right{
+    display: none;
+  }
+
+  .nav-list{
+    display: none;
+  }
+
+  .container .menu-icon{
+    display: block;
+  }
+
+  /* navbar/header (elisa)end */
+
+/* ------------------------------------------------------------------------------------------- */
+  
+  /* our work (cornelius) start */
+  .lesson{
+    width: 100%;
+  }
+  /* our work (cornelius) end */
+
+/* ------------------------------------------------------------------------------------------- */
+
+  /* our team (Davin) start */
+  .tim{
+    width: 100%;
+  }
+
+  /* our team (Davin) end */
+
+/* ------------------------------------------------------------------------------------------- */
+  
+  /* header (ayu) start */
+  .top-wrapper h1 {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    width: 50%;
+  }
+  
+  .cont {
+    margin-bottom: 10px;
+  }
+  /* header (ayu) end */
+
+/* ------------------------------------------------------------------------------------------- */
+
+  /* contact (dani) start */
+  .box-form h1{
+    font-size: 32px;
+  }
+
+  input, select, textarea{
+    width: 85%;
+  }
+
+  label{
+    font-size: 24px;
+  }
+  /* contact (dani) end */
+
+  /* footer (elisa) start */
+  .footer{
+    padding : 30px 20px;
+  }
+  /* footer (elisa) end */
+}
